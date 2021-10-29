@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 
@@ -198,4 +199,128 @@ a {
     .header-icons.active {
         display: flex;
     }
+}
+
+.visual-area {
+    margin: 5px auto;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.visual-area-image {
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .home-menu {
+        display: none;
+    }
+}
+
+.home-menu {
+    margin: 5px auto;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.home-menubar-title {
+    background-image: url(images/Home/menu-title-line.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.home-menubar-title-maintext {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-align: center;
+
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.home-menubar {
+    display: flex;
+    justify-content: center;
+}
+
+.home-menubar-logo {
+    text-align: center;
+}
+
+.home-menubar-logo-image {
+    width: 80%;
+    height: auto;
+}
+
+.home-notice {
+    margin: 20px auto;
+    margin-top: 20px;
+    max-width: 1200px;
+    width: 90%;
+    background-color: #fafafa;
+}
+
+.home-notice-title {
+
+}
+
+.home-notice-title-maintext {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.home-notice-contents {
+    display: flex;
+    justify-content: start;
+    overflow: scroll;
+    -ms-overflow-style: none;
+
+    margin: 10px 0px;
+}
+
+.home-notice-contents::-webkit-scrollbar{
+    display:none;
+}
+
+.home-notice-content {
+    margin: 5px;
+}
+
+.home-notice-content-thumbnail {
+    min-width: 250px;
+}
+
+.home-notice-content-thumbnail-image {
+    width: 100%;
+}
+
+.home-notice-content-title {
+    padding: 10px 0px;
+}
+
+.home-notice-content-title-maintext {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+
+    margin: 0px;
+}
+
+.home-notice-content-title-subtext {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+
+    margin: 0px;
+    padding: 5px 0px;
 }
