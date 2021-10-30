@@ -287,6 +287,7 @@ a {
     justify-content: start;
     transition-duration: 0ms;
     transform: translate3d(0px, 0px, 0px);
+    overflow: scroll;
 }
 
 .home-notice-content {
