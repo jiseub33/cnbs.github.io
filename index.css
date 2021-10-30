@@ -21,6 +21,7 @@ a {
     border: 1px solid #E2E2E2;
     background-color: #ffffff;
 
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
