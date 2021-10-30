@@ -222,7 +222,6 @@ a {
     margin: 5px auto;
     max-width: 1200px;
     width: 100%;
-    background-color: #fafafa;
 }
 
 .home-menubar-title {
@@ -277,17 +276,16 @@ a {
     margin: 0px;
 }
 
-.home-notice-contents {
-    display: flex;
-    justify-content: start;
-    overflow: scroll;
-    -ms-overflow-style: none;
-
+.home-notice-contents-swiper {
+    overflow: hidden;
     margin: 10px 0px;
 }
 
-.home-notice-contents::-webkit-scrollbar{
-    display:none;
+.home-notice-contents {
+    display: flex;
+    justify-content: start;
+    transition-duration: 0ms;
+    transform: translate3d(0px, 0px, 0px);
 }
 
 .home-notice-content {
