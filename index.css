@@ -202,16 +202,52 @@ a {
     }
 }
 
+@media screen and (max-width: 700px) {
+    .visual-area {
+        display: none;
+    }
+    .visual-area-image {
+        display: none;
+    }
+}
+
 .visual-area {
     margin: 5px auto;
     max-width: 1200px;
+    text-align: left;
+
+    background-image: url(images/Home/banner-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.visual-area-image {
+    padding: 150px 0px;
+    padding-left: 100px;
+    max-width: 200px;
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .visual-area-m {
+        display: none;
+    }
+    .visual-area-m-image {
+        display: none;
+    }
+}
+
+.visual-area-m {
+    margin: 5px auto;
     width: 100%;
     text-align: center;
 }
 
-.visual-area-image {
+.visual-area-m-image {
     width: 100%;
 }
+
 
 @media screen and (max-width: 700px) {
     .home-menu {
