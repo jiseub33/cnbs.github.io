@@ -80,7 +80,7 @@ a {
     margin: 10px 0px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .fixheader-logo-image {
         flex-direction: column;
         align-items: flex-start;
@@ -177,7 +177,7 @@ a {
     margin: 15px 0px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .header-menu {
         display: none;
         flex-direction: column;
@@ -202,7 +202,7 @@ a {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .visual-area {
         display: none;
     }
@@ -229,7 +229,7 @@ a {
     width: 100%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .visual-area-m {
         display: none;
     }
@@ -249,7 +249,7 @@ a {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .home-menu {
         display: none;
     }
@@ -291,12 +291,19 @@ a {
     height: auto;
 }
 
+@media screen and (max-width: 800px) {  
+    .home-notice {
+        display: none;
+    }
+}
+
 .home-notice {
     margin: 20px auto;
     margin-top: 20px;
     max-width: 1200px;
-    width: 90%;
-    background-color: #ffffff;
+    width: 95%;
+    background-color: #fafafa;
+    overflow: hidden;
 }
 
 .home-notice-title {
@@ -314,16 +321,16 @@ a {
 }
 
 .home-notice-contents-swiper {
-    overflow: hidden;
     margin: 10px 0px;
+    display: flex;
+    justify-content: start;
+    transform: translate3d(-762px, 0px, 0px);
 }
 
 .home-notice-contents {
+    min-width: 100%;
     display: flex;
     justify-content: start;
-    transition-duration: 0ms;
-    transform: translate3d(0px, 0px, 0px);
-    overflow: scroll;
 }
 
 .home-notice-content {
@@ -331,7 +338,7 @@ a {
 }
 
 .home-notice-content-thumbnail {
-    min-width: 250px;
+    width: 100%;
 }
 
 .home-notice-content-thumbnail-image {
@@ -352,6 +359,88 @@ a {
 }
 
 .home-notice-content-title-subtext {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+
+@media screen and (min-width: 800px) {  
+    .home-notice-m {
+        display: none;  
+    }
+}
+
+.home-notice-m {
+    margin: 20px auto;
+    margin-top: 20px;
+    max-width: 1200px;
+    width: 95%;
+    background-color: #fafafa;
+}
+
+.home-notice-m-title {
+
+}
+
+.home-notice-m-title-maintext {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.home-notice-m-contents-swiper {
+    overflow-x: scroll;
+    margin: 10px 0px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.home-notice-m-contents-swiper::-webkit-scrollbar {
+    display: none;
+}
+
+.home-notice-m-contents {
+    display: flex;
+    justify-content: start;
+    transition-duration: 0ms;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.home-notice-m-content {
+    margin: 5px;
+}
+
+.home-notice-m-content-thumbnail {
+    width: 250px;
+}
+
+.home-notice-m-content-thumbnail-image {
+    width: 100%;
+}
+
+.home-notice-m-content-title {
+    padding: 10px 0px;
+}
+
+.home-notice-m-content-title-maintext {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+
+    margin: 0px;
+}
+
+.home-notice-m-content-title-subtext {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
     font-weight: 300;
