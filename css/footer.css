@@ -1,0 +1,33 @@
+.footer {
+    background-color: #272323;
+    color: #ffffff;
+}
+
+.footer-area {
+    background-color: #272323;
+    color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-text-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-sns {
+    vertical-align: middle;
+}
+
+.footer-sns-image {
+    max-width: 50px;
+    padding: 20px 10px;
+}
