@@ -306,10 +306,6 @@ a {
     overflow: hidden;
 }
 
-.home-notice-title {
-
-}
-
 .home-notice-title-maintext {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 30px;
@@ -381,10 +377,6 @@ a {
     max-width: 1200px;
     width: 95%;
     background-color: #fafafa;
-}
-
-.home-notice-m-title {
-
 }
 
 .home-notice-m-title-maintext {
