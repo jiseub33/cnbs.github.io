@@ -52,4 +52,5 @@ input[id="menuicon"]:checked + label + .background  {opacity:1;visibility:visibl
     font-weight: 500;
     font-size: 20px;
     padding: 10px 0;
+    cursor: pointer;
 }
