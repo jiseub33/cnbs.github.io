@@ -1,0 +1,18 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "CNBS",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "CNBS",
+  "start_url": "https://secret.navyalliance48.com/program/%EC%89%AC%EC%96%B4%EA%B0%80%EB%8A%94%ED%83%80%EC%9E%84/program",
+  "theme_color": "#64C1DF",
+  "icons": [
+    {
+      "src": "images/LOGO/CNBS-app.ong",
+      "type": "image/png",
+      "sizes": "700x700"
+    }
+  ]
+}
