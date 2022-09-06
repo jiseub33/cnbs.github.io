@@ -10,7 +10,7 @@
   "theme_color": "#64C1DF",
   "icons": [
     {
-      "src": "images/LOGO/CNBS-app.ong",
+      "src": "images/LOGO/CNBS-app.png",
       "type": "image/png",
       "sizes": "700x700"
     }
